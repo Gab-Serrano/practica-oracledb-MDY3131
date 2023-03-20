@@ -45,7 +45,7 @@ BEGIN
             INSERT INTO cliente_todosuma VALUES(v_nro_cliente, v_run_cliente, v_nombre_cliente, v_tipo_cliente, 
                     v_monto_solic_creditos, v_monto_pesos_todosuma);
                     
-            DBMS_OUTPUT.PUT_LINE('v_nro_cliente :'||v_nro_cliente);
+            DBMS_OUTPUT.PUT_LINE('v_nro_cliente:'||v_nro_cliente);
             DBMS_OUTPUT.PUT_LINE('v_run_cliente :'||v_run_cliente);
             DBMS_OUTPUT.PUT_LINE('v_nombre_cliente :'||v_nombre_cliente);
             DBMS_OUTPUT.PUT_LINE('v_tipo_cliente :'||v_tipo_cliente);
